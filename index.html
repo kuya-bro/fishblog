@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Blog</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fish Blog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="jumbotron text-center mb-4">
+        <h1 class="display-4">Welcome to the Fish Blog</h1>
+        <p class="lead">Dive into the world of aquatic life and learn all about fishes!</p>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://www.30a.com/wp-content/uploads/2020/12/shutterstock_273670535.jpg" class="card-img-top" alt="Fish Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Amazing Fish Species</h5>
+                        <p class="card-text">Discover the most fascinating fish species that thrive in our oceans.</p>
+                        <button class="btn btn-info" id="post1-btn">Read More</button>
+                        <div id="post1-content" class="mt-3" style="display:none;">
+                            <p>Fish are incredibly diverse in the ocean. From the tiny seahorse to the massive whale shark, each species has unique features...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://earimediaprodweb.azurewebsites.net/Api/v1/Multimedia/45426303-c7a0-4e7b-9422-b5bc0a1afe15/Rendition/low-res/Content/Public" class="card-img-top" alt="Fish Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Fish Conservation</h5>
+                        <p class="card-text">Learn about the importance of protecting fish habitats and ensuring sustainable fishing.</p>
+                        <button class="btn btn-info" id="post2-btn">Read More</button>
+                        <div id="post2-content" class="mt-3" style="display:none;">
+                            <p>Conservation of fish species is vital to maintain biodiversity and ecological balance. We must act now to protect...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://creature-companions.in/wp-content/uploads/2024/08/Types-of-Aquarium-Fish-for-Home.webp" class="card-img-top" alt="Fish Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Best Aquarium Fish</h5>
+                        <p class="card-text">Looking for the best fish to keep in your aquarium? Check out this guide for beginners.</p>
+                        <button class="btn btn-info" id="post3-btn">Read More</button>
+                        <div id="post3-content" class="mt-3" style="display:none;">
+                            <p>Aquarium fish are a great addition to any home. Some species are easy to care for, while others are more challenging...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://www.fishkeepingworld.com/wp-content/uploads/2019/10/Tropical-Fish-Ultimate-A-Z-List-From-Arowanas-to-Zebra-Danios-Banner.jpg" class="card-img-top" alt="Fish Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Tropical Fish Varieties</h5>
+                        <p class="card-text">Explore the beauty and variety of tropical fish for aquariums and ponds.</p>
+                        <button class="btn btn-info" id="post4-btn">Read More</button>
+                        <div id="post4-content" class="mt-3" style="display:none;">
+                            <p>Tropical fish are popular for their vibrant colors and diverse species. They add life to aquariums and ponds...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://www.thesprucepets.com/thmb/Jg5byuBdix-TXtyLk4Xn575K3GE=/6078x0/filters:no_upscale():strip_icc()/low-maintenance-freshwater-fish-4770223-hero-ffb66c229c194e2db4916e88bbd17a15.jpg" class="card-img-top" alt="Fish Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Freshwater Fish Care</h5>
+                        <p class="card-text">Tips and tricks for maintaining healthy freshwater fish in your home aquarium.</p>
+                        <button class="btn btn-info" id="post5-btn">Read More</button>
+                        <div id="post5-content" class="mt-3" style="display:none;">
+                            <p>Freshwater fish are great for beginners. They thrive in controlled environments and are easier to care for than saltwater fish...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://www.fishi-pedia.com/wp-content/uploads/2018/10/Abudefduf-vaigiensis-Menjangan-Island-Bali-Indonesia-725x483.jpg" class="card-img-top" alt="Fish Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Saltwater Fish Species</h5>
+                        <p class="card-text">Learn about the fascinating and exotic saltwater fish species.</p>
+                        <button class="btn btn-info" id="post6-btn">Read More</button>
+                        <div id="post6-content" class="mt-3" style="display:none;">
+                            <p>Saltwater fish offer vibrant colors and unique characteristics. However, they require specific care to thrive...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer class="py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Fish Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+
+        document.getElementById("post1-btn").onclick = function () {
+            var content = document.getElementById("post1-content");
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        };
+
+        document.getElementById("post2-btn").onclick = function () {
+            var content = document.getElementById("post2-content");
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        };
+
+        document.getElementById("post3-btn").onclick = function () {
+            var content = document.getElementById("post3-content");
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        };
+
+        document.getElementById("post4-btn").onclick = function () {
+            var content = document.getElementById("post4-content");
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        };
+
+        document.getElementById("post5-btn").onclick = function () {
+            var content = document.getElementById("post5-content");
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        };
+
+        document.getElementById("post6-btn").onclick = function () {
+            var content = document.getElementById("post6-content");
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        };
+    </script>
+</body>
+
+</html>

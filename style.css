@@ -1,0 +1,36 @@
+.card-body {
+    min-height: 200px;
+}
+body{
+    background-image: url('backgroun.jpg'); 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); 
+}
+.jumbotron{
+    background-color: transparent;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.438) !important;
+    color: white;
+}
+a{
+    color: white !important;
+}
+footer {
+background-color: rgba(0, 0, 0, 0.438); 
+color: white; 
+padding: 20px 0;
+}
+.card-img-top {
+width: 100%; /* Ensures the image fills the width of the card */
+height: 200px; /* Set a fixed height for all images */
+object-fit: cover; /* Ensures the image is cropped and fits the container without stretching */
+}
+.card-body{
+background-color: rgba(255, 255, 255, 0.418);
+}
